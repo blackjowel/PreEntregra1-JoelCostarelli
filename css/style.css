@@ -1,0 +1,248 @@
+body {
+    background-color: white;
+  }
+  
+  header { 
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  video {
+    width: 400px; /* Ancho deseado */
+    height: 400px; /* Altura deseada */
+    position: relative; /* Posición absoluta para que se pueda superponer al contenido */
+    top: 10px; /* Posición vertical */
+    left: 10px; /* Posición horizontal */
+    z-index: 9999; /* Valor alto para asegurarse de que esté por encima de otros elementos */
+  }
+  
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .product h3 {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .product p {
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  /* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Estilos específicos para los productos */
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.producto {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.producto h3 {
+  margin-top: 10px;
+}
+
+.producto p {
+  margin: 10px 0;
+}
+
+.producto img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* Estilos para el formulario */
+form div {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para el encabezado y la navegación */
+header {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos para el mapa incrustado */
+iframe {
+  width: 70%;
+  height: 300px;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer section {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+/* Estilos para enlaces */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contacto {
+  max-width: 500px;
+} 
+ /* Estilo para servicio*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+  
