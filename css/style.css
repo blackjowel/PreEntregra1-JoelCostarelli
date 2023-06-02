@@ -31,13 +31,19 @@ body {
   h1 {
     color: #333;
   }
+   
+  .content {
+    flex-grow: 1;
+    text-align: right;
+  }
+  
   video {
-    width: 400px; /* Ancho deseado */
-    height: 400px; /* Altura deseada */
-    position: relative; /* Posición absoluta para que se pueda superponer al contenido */
-    top: 10px; /* Posición vertical */
-    left: 10px; /* Posición horizontal */
-    z-index: 9999; /* Valor alto para asegurarse de que esté por encima de otros elementos */
+    width: 400px; 
+    height: 400px; 
+    position: relative; 
+    top: 10px; 
+    left: 10px;
+    z-index: 9999;  
   }
   
   
